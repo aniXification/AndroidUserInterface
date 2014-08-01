@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <!-- TOP BOTTON STARTS -->
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/turquoise" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/button1"
+        android:background="@color/sunflower" />
+    <!-- TOP BUTTON ENDS -->
+
+
+    <!-- BOTTOM BOTTON STARTS -->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/emerlad" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_above="@id/button2"
+        android:background="@color/carrot" />
+    <!-- BOTTOM BOTTON ENDS -->
+
+
+    <!-- LEFT BOTTON STARTS -->
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@color/peter_river" />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@id/button3"
+        android:background="@color/alizarin" />
+    <!-- LEFT BOTTON ENDS -->
+
+
+    <!-- RIGHT BOTTON STARTS -->
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/amethysy" />
+     <Button
+        android:id="@+id/button8"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/button4"
+        android:background="@color/clouds" />
+    <!-- RIGHT BOTTON ENDS -->
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
