@@ -3,7 +3,7 @@
     <item
         android:id="@+id/menu_switch"
         android:icon="@drawable/ic_launcher"
-        android:showAsAction="ifRoom|withText|collapseActionView"
+        android:showAsAction="always"
         android:title="Switch"/>
 
 </menu>

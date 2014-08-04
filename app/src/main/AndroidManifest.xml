@@ -22,7 +22,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.aniXification.asrandroiduserinterface.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,46 +31,50 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.aniXification.asrandroiduserinterface.InputControlsActivity"
+            android:name=".InputControlsActivity"
             android:label="@string/title_activity_input_controls" >
         </activity>
         <activity
-            android:name="com.aniXification.asrandroiduserinterface.NotificationActivity"
+            android:name=".NotificationActivity"
             android:label="@string/title_activity_notification" >
         </activity>
         <activity
-            android:name="com.aniXification.asrandroiduserinterface.lifecycle.ActivityA"
+            android:name=".lifecycle.ActivityA"
             android:launchMode="singleTask" >
         </activity>
-        <activity android:name="com.aniXification.asrandroiduserinterface.lifecycle.ActivityB" />
-        <activity android:name="com.aniXification.asrandroiduserinterface.lifecycle.ActivityC" />
+        <activity android:name=".lifecycle.ActivityB" />
+        <activity android:name=".lifecycle.ActivityC" />
         <activity
-            android:name="com.aniXification.asrandroiduserinterface.lifecycle.DialogActivity"
+            android:name=".lifecycle.DialogActivity"
             android:theme="@android:style/Theme.Dialog" >
         </activity>
         <activity
-            android:name="com.aniXification.asrandroiduserinterface.intent.IntentMainActivity"
+            android:name=".intent.IntentMainActivity"
             android:label="@string/title_activity_intent_main" >
         </activity>
         <activity
-            android:name="com.aniXification.asrandroiduserinterface.intent.NewActivity"
+            android:name=".intent.NewActivity"
             android:label="@string/title_activity_new" >
         </activity>
         <activity
-            android:name="com.aniXification.asrandroiduserinterface.intent.PassDataActivity"
+            android:name=".intent.PassDataActivity"
             android:label="@string/title_activity_pass_data" >
         </activity>
         <activity
-            android:name="com.aniXification.asrandroiduserinterface.GetDataActivity"
+            android:name=".GetDataActivity"
             android:label="@string/title_activity_get_data" >
         </activity>
         <activity
-            android:name="com.aniXification.asrandroiduserinterface.LogcatActivity"
+            android:name=".LogcatActivity"
             android:label="@string/title_activity_logcat" >
         </activity>
         <activity
-            android:name="com.aniXification.asrandroiduserinterface.RelativeLayoutActivity"
+            android:name=".RelativeLayoutActivity"
             android:label="@string/title_activity_relative_layout" >
+        </activity>
+        <activity
+            android:name=".AsynTaskActivity"
+            android:label="@string/title_activity_asyn_task" >
         </activity>
     </application>
 

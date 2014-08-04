@@ -49,6 +49,7 @@ public class MainActivity extends Activity implements OnItemClickListener{
     	"Intents",
     	"Logcat",
     	"Relative Layout",
+        "AsynTask",
         };
 
 	
@@ -182,7 +183,9 @@ public class MainActivity extends Activity implements OnItemClickListener{
 			startActivity(new Intent(getApplicationContext(), LogcatActivity.class));
 		} else if(position == 6){
 			startActivity(new Intent(getApplicationContext(), RelativeLayoutActivity.class));
-		} else {
+		} else if(position == 7){
+            startActivity(new Intent(getApplicationContext(), AsynTaskActivity.class));
+        } else {
 			Toast.makeText(getApplicationContext(), "position: " + position, Toast.LENGTH_SHORT).show();
 		}
 		

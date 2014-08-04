@@ -44,5 +44,7 @@
     <string name="title_activity_get_data">GetDataActivity</string>
     <string name="title_activity_logcat">LogcatActivity</string>
     <string name="title_activity_relative_layout">RelativeLayoutActivity</string>
+    <string name="title_activity_asyn_task">AsynTask</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
