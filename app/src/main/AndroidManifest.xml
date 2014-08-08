@@ -76,6 +76,14 @@
             android:name=".AsynTaskActivity"
             android:label="@string/title_activity_asyn_task" >
         </activity>
+        <activity
+            android:name=".CheckInternetConnection"
+            android:label="@string/title_activity_check_internet_connection" >
+        </activity>
+        <activity
+            android:name=".WbservicesExample"
+            android:label="@string/title_activity_wbservices_example" >
+        </activity>
     </application>
 
 </manifest>

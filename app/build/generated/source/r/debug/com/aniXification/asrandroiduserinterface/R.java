@@ -965,7 +965,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080015;
         public static final int action_menu_presenter=0x7f080016;
         public static final int action_mode_close_button=0x7f080024;
-        public static final int action_settings=0x7f080067;
+        public static final int action_settings=0x7f08006b;
         public static final int activity_chooser_view_content=0x7f080025;
         public static final int always=0x7f08000f;
         public static final int beginning=0x7f08000a;
@@ -993,7 +993,9 @@ containing a value of this type.
         public static final int checkBox1=0x7f08004e;
         public static final int checkbox=0x7f08002d;
         public static final int collapseActionView=0x7f080011;
+        public static final int created_at=0x7f080069;
         public static final int default_activity_button=0x7f080028;
+        public static final int description=0x7f080068;
         public static final int dialog=0x7f080012;
         public static final int disableHome=0x7f080008;
         public static final int dropdown=0x7f080013;
@@ -1006,14 +1008,16 @@ containing a value of this type.
         public static final int home=0x7f080017;
         public static final int homeAsUp=0x7f080005;
         public static final int icon=0x7f08002a;
+        public static final int id=0x7f080066;
         public static final int ifRoom=0x7f08000e;
         public static final int image=0x7f080027;
         public static final int imageView1=0x7f080053;
         public static final int listMode=0x7f080001;
         public static final int listView=0x7f08005c;
         public static final int list_item=0x7f080029;
-        public static final int menu_switch=0x7f080068;
+        public static final int menu_switch=0x7f08006c;
         public static final int middle=0x7f08000b;
+        public static final int name=0x7f080067;
         public static final int never=0x7f08000d;
         public static final int none=0x7f080009;
         public static final int normal=0x7f080000;
@@ -1050,7 +1054,7 @@ containing a value of this type.
         public static final int switch1=0x7f080052;
         public static final int tabMode=0x7f080002;
         public static final int textView=0x7f080043;
-        public static final int textView1=0x7f080066;
+        public static final int textView1=0x7f08006a;
         public static final int timePicker1=0x7f080054;
         public static final int title=0x7f08002b;
         public static final int top_action_bar=0x7f080020;
@@ -1092,23 +1096,28 @@ containing a value of this type.
         public static final int activity_asyn_task=0x7f030019;
         public static final int activity_b=0x7f03001a;
         public static final int activity_c=0x7f03001b;
-        public static final int activity_dialog=0x7f03001c;
-        public static final int activity_get_data=0x7f03001d;
-        public static final int activity_input_controls=0x7f03001e;
-        public static final int activity_intent_main=0x7f03001f;
-        public static final int activity_logcat=0x7f030020;
-        public static final int activity_main=0x7f030021;
-        public static final int activity_new=0x7f030022;
-        public static final int activity_notification=0x7f030023;
-        public static final int activity_pass_data=0x7f030024;
-        public static final int activity_relative_layout=0x7f030025;
-        public static final int row_gridview=0x7f030026;
-        public static final int row_listview=0x7f030027;
-        public static final int support_simple_spinner_dropdown_item=0x7f030028;
+        public static final int activity_check_internet_connection=0x7f03001c;
+        public static final int activity_dialog=0x7f03001d;
+        public static final int activity_get_data=0x7f03001e;
+        public static final int activity_input_controls=0x7f03001f;
+        public static final int activity_intent_main=0x7f030020;
+        public static final int activity_logcat=0x7f030021;
+        public static final int activity_main=0x7f030022;
+        public static final int activity_new=0x7f030023;
+        public static final int activity_notification=0x7f030024;
+        public static final int activity_pass_data=0x7f030025;
+        public static final int activity_relative_layout=0x7f030026;
+        public static final int activity_wbservices_example=0x7f030027;
+        public static final int list_item=0x7f030028;
+        public static final int row_gridview=0x7f030029;
+        public static final int row_listview=0x7f03002a;
+        public static final int support_simple_spinner_dropdown_item=0x7f03002b;
     }
     public static final class menu {
         public static final int asyn_task=0x7f0d0000;
-        public static final int menu_main_activity=0x7f0d0001;
+        public static final int check_internet_connection=0x7f0d0001;
+        public static final int menu_main_activity=0x7f0d0002;
+        public static final int wbservices_example=0x7f0d0003;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0b0000;
@@ -1161,14 +1170,16 @@ containing a value of this type.
         public static final int start_b=0x7f0b002f;
         public static final int start_c=0x7f0b0030;
         public static final int title_activity_asyn_task=0x7f0b0031;
-        public static final int title_activity_get_data=0x7f0b0032;
-        public static final int title_activity_input_controls=0x7f0b0033;
-        public static final int title_activity_intent_main=0x7f0b0034;
-        public static final int title_activity_logcat=0x7f0b0035;
-        public static final int title_activity_new=0x7f0b0036;
-        public static final int title_activity_notification=0x7f0b0037;
-        public static final int title_activity_pass_data=0x7f0b0038;
-        public static final int title_activity_relative_layout=0x7f0b0039;
+        public static final int title_activity_check_internet_connection=0x7f0b0032;
+        public static final int title_activity_get_data=0x7f0b0033;
+        public static final int title_activity_input_controls=0x7f0b0034;
+        public static final int title_activity_intent_main=0x7f0b0035;
+        public static final int title_activity_logcat=0x7f0b0036;
+        public static final int title_activity_new=0x7f0b0037;
+        public static final int title_activity_notification=0x7f0b0038;
+        public static final int title_activity_pass_data=0x7f0b0039;
+        public static final int title_activity_relative_layout=0x7f0b003a;
+        public static final int title_activity_wbservices_example=0x7f0b003b;
     }
     public static final class style {
         /** 

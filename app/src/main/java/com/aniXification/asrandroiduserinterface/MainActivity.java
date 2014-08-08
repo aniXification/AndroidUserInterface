@@ -50,6 +50,8 @@ public class MainActivity extends Activity implements OnItemClickListener{
     	"Logcat",
     	"Relative Layout",
         "AsynTask",
+        "Check Internet Connection",
+         "Web Services Example",
         };
 
 	
@@ -185,6 +187,10 @@ public class MainActivity extends Activity implements OnItemClickListener{
 			startActivity(new Intent(getApplicationContext(), RelativeLayoutActivity.class));
 		} else if(position == 7){
             startActivity(new Intent(getApplicationContext(), AsynTaskActivity.class));
+        } else if(position == 8){
+            startActivity(new Intent(getApplicationContext(), CheckInternetConnection.class));
+        } else if(position == 9){
+            startActivity(new Intent(getApplicationContext(), WbservicesExample.class));
         } else {
 			Toast.makeText(getApplicationContext(), "position: " + position, Toast.LENGTH_SHORT).show();
 		}
