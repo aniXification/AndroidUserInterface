@@ -84,6 +84,10 @@
             android:name=".WbservicesExample"
             android:label="@string/title_activity_wbservices_example" >
         </activity>
+        <activity
+            android:name=".WbServicesItemListActivity"
+            android:label="@string/title_activity_wb_services_detail" >
+        </activity>
     </application>
 
 </manifest>

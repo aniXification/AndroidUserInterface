@@ -1107,17 +1107,19 @@ containing a value of this type.
         public static final int activity_notification=0x7f030024;
         public static final int activity_pass_data=0x7f030025;
         public static final int activity_relative_layout=0x7f030026;
-        public static final int activity_wbservices_example=0x7f030027;
-        public static final int list_item=0x7f030028;
-        public static final int row_gridview=0x7f030029;
-        public static final int row_listview=0x7f03002a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03002b;
+        public static final int activity_wb_services_detail=0x7f030027;
+        public static final int activity_wbservices_example=0x7f030028;
+        public static final int list_item=0x7f030029;
+        public static final int row_gridview=0x7f03002a;
+        public static final int row_listview=0x7f03002b;
+        public static final int support_simple_spinner_dropdown_item=0x7f03002c;
     }
     public static final class menu {
         public static final int asyn_task=0x7f0d0000;
         public static final int check_internet_connection=0x7f0d0001;
         public static final int menu_main_activity=0x7f0d0002;
-        public static final int wbservices_example=0x7f0d0003;
+        public static final int wb_services_detail=0x7f0d0003;
+        public static final int wbservices_example=0x7f0d0004;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0b0000;
@@ -1179,7 +1181,8 @@ containing a value of this type.
         public static final int title_activity_notification=0x7f0b0038;
         public static final int title_activity_pass_data=0x7f0b0039;
         public static final int title_activity_relative_layout=0x7f0b003a;
-        public static final int title_activity_wbservices_example=0x7f0b003b;
+        public static final int title_activity_wb_services_detail=0x7f0b003b;
+        public static final int title_activity_wbservices_example=0x7f0b003c;
     }
     public static final class style {
         /** 

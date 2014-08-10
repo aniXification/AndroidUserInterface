@@ -48,5 +48,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_check_internet_connection">CheckInternetConnection</string>
     <string name="title_activity_wbservices_example">Wbservices Example</string>
+    <string name="title_activity_wb_services_detail">WbServicesDetailActivity</string>
 
 </resources>
