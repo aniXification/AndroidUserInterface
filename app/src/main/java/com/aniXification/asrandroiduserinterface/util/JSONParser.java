@@ -37,6 +37,7 @@ public class JSONParser {
     static InputStream iStream = null;
     static JSONArray jarray = null;
     static String json = "";
+    static JSONObject jObj = null;
 
     // constructor
     public JSONParser() {
@@ -81,17 +82,14 @@ public class JSONParser {
 
     }
 
- /*   public JSONObject getJSONFromUrl(String url, List<NameValuePair> params) {
+    public void postJSONFromUrl(String url, List<NameValuePair> params) {
 
         // Making HTTP request
         try {
             // defaultHttpClient
             DefaultHttpClient httpClient = new DefaultHttpClient();
             HttpPost httpPost = new HttpPost(url);
-
-            if(params!=null){
-                httpPost.setEntity(new UrlEncodedFormEntity(params));
-            }
+            httpPost.setEntity(new UrlEncodedFormEntity(params));
 
             //TIMEOUT PARAMS starts
             HttpParams httpParameters = new BasicHttpParams();
@@ -109,7 +107,7 @@ public class JSONParser {
 
             HttpResponse httpResponse = httpClient.execute(httpPost);
             HttpEntity httpEntity = httpResponse.getEntity();
-            is = httpEntity.getContent();
+            iStream = httpEntity.getContent();
 
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
@@ -120,13 +118,13 @@ public class JSONParser {
         }
 
         try {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(is, "iso-8859-1"), 8);
+            BufferedReader reader = new BufferedReader(new InputStreamReader(iStream, "iso-8859-1"), 8);
             StringBuilder sb = new StringBuilder();
             String line = null;
             while ((line = reader.readLine()) != null) {
                 sb.append(line + "");
             }
-            is.close();
+            iStream.close();
             json = sb.toString();
             Log.e("JSON", json);
         } catch (Exception e) {
@@ -141,7 +139,7 @@ public class JSONParser {
         }
 
         // return JSON String
-        return jObj;
+        //return jObj;
 
-    }*/
+    }
 }

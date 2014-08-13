@@ -10,9 +10,11 @@ import android.view.MenuItem;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.Toast;
 
 import com.aniXification.asrandroiduserinterface.dto.CategoryDTO;
 import com.aniXification.asrandroiduserinterface.util.JSONParser;
+import com.aniXification.asrandroiduserinterface.util.NetworkChecker;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -44,7 +46,11 @@ public class WbServicesItemListActivity extends ListActivity {
         categoryId = getIntent().getExtras().get("id").toString();
         categoryName = getIntent().getExtras().get("name").toString();
 
-        new ItemsAsynTask(WbServicesItemListActivity.this).execute();
+        if(NetworkChecker.checkInternetConnection(getApplicationContext())){
+            new ItemsAsynTask(WbServicesItemListActivity.this).execute();
+        } else {
+            Toast.makeText(getApplicationContext(), "Please connect to internet first!", Toast.LENGTH_SHORT).show();
+        }
     }
 
 
